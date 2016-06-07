@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "c6b9b6da575782a297015a017a7bdb92",
-    "content-hash": "dd719ec3bb2ab7d700c45f8e58fc5247",
+    "hash": "ab536c436e839389243e03a530936c8a",
+    "content-hash": "8fb880047f9a84e32c61f8db7becbd11",
     "packages": [
         {
             "name": "composer/installers",
@@ -578,7 +578,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://ftp.drupal.org/files/projects/contact_storage-8.x-1.0-beta4.zip",
-                "reference": null,
+                "reference": "8.x-1.0-beta4",
                 "shasum": "8d39f6f64345ee90df7400d406a27f06c9c73b18"
             },
             "require": {
@@ -793,6 +793,57 @@
             ],
             "description": "Drupal is an open source content management platform powering millions of websites and applications.",
             "time": "2016-06-01 23:31:24"
+        },
+        {
+            "name": "drupal/honeypot",
+            "version": "1.23.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/honeypot",
+                "reference": "8.x-1.23"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/honeypot-8.x-1.23.zip",
+                "reference": null,
+                "shasum": "a822b1d1926a85248eb40902ab7027796ce41db1"
+            },
+            "require": {
+                "drupal/drupal": "~8.0"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.23.x": "1.23.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-1.23",
+                    "datestamp": "1457671745"
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Jeff Geerling",
+                    "email": "geerlingguy@mac.com"
+                }
+            ],
+            "description": "Mitigates spam form submissions using the honeypot method.",
+            "homepage": "https://www.drupal.org/project/honeypot",
+            "keywords": [
+                "deterrent",
+                "form",
+                "honeypot",
+                "honeytrap",
+                "php",
+                "spam"
+            ],
+            "support": {
+                "source": "https://www.drupal.org/project/honeypot"
+            }
         },
         {
             "name": "easyrdf/easyrdf",
