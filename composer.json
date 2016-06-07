@@ -19,7 +19,8 @@
         "drupal/core": "8.1.2",
         "drupal/contact_storage": "^1.0@beta",
         "drupal/honeypot": "^1.23",
-        "drupal/google_analytics": "^2.0"
+        "drupal/google_analytics": "^2.0",
+        "drupal/xmlsitemap": "~1.0@alpha"
     },
     "replace": {
         "drupal/drupal": "~8.1"
