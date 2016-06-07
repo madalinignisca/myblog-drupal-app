@@ -16,7 +16,8 @@
     ],
     "require": {        
         "composer/installers": "^1.0.20",
-        "drupal/core": "8.1.2"
+        "drupal/core": "8.1.2",
+        "drupal/contact_storage": "^1.0@beta"
     },
     "replace": {
         "drupal/drupal": "~8.1"
