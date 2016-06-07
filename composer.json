@@ -8,19 +8,22 @@
             "email": "madalin.ignisca@gmail.com"
         }
     ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
     "repositories": [
         {
             "type": "composer",
             "url":  "https://packages.drupal.org/8"
         }
     ],
-    "require": {        
+    "require": {
         "composer/installers": "^1.0.20",
-        "drupal/core": "8.1.2",
-        "drupal/contact_storage": "^1.0@beta",
-        "drupal/honeypot": "^1.23",
-        "drupal/google_analytics": "^2.0",
-        "drupal/xmlsitemap": "~1.0@alpha"
+        "drupal/core": "~8.1",
+        "drupal/contact_storage": "~1.0@beta",
+        "drupal/honeypot": "~1.23",
+        "drupal/google_analytics": "~2.0",
+        "drupal/xmlsitemap": "~1.0",
+        "drupal/flysystem_s3": "~1.0"
     },
     "replace": {
         "drupal/drupal": "~8.1"
